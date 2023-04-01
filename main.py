@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# pylint: disable=unused-argument, wrong-import-position
 # This program is dedicated to the public domain under the CC0 license.
 
 """
@@ -142,7 +141,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         reply_markup=ForceReply(selective=True),
     )
     logging.info(f"User {user.mention_html()} started a conversation with the bot.")
-    print(f"User {user.mention_html()} starts conversation.", flush=True)
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /help is issued."""
@@ -160,18 +158,16 @@ async def my_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
     input_message = update.message.text
     user = update.effective_user
     logging.info(f"User {user.mention_html()} sends: {input_message}")
-    #print("user "+user.mention_html()+" sends "+input_message, flush=True)
     output_message = respond_to(input_message)
     if has_less_than_4_ukrainian_letters(output_message):
-        #print("TRANSLATION NECESSARY: ",flush=True)
         logging.info(f"TRANSLATION NECESSARY...Bot responds: {output_message}")
         ukrainian_output = translate_to_ukrainian(output_message)
         output_message = replace_html_entities(ukrainian_output) #ukrainian_output.text
 
     await update.message.reply_text(output_message)
     logging.info(f"Bot responds: {output_message}")
-    #print("bot responds: "+output_message, flush=True)
 
+    
 def main() -> None:
     """Start the bot."""
 
