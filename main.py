@@ -30,7 +30,7 @@ from langchain.vectorstores import Chroma
 #from langchain.text_splitter import CharacterTextSplitter
 from langchain.chains import ChatVectorDBChain
 
-from langchain.chat_models import ChatOpenAI # ist diese oder nxt zeile superfluous?
+from langchain.chat_models import ChatOpenAI  
 from langchain.prompts.chat import (
     ChatPromptTemplate,
     SystemMessagePromptTemplate,
