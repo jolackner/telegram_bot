@@ -1,9 +1,9 @@
-# A simple telegram bot that answers to questions on a document 
+# DocQBot: A Minimalist Telegram Bot for Document Queries
 
 A simple Telegram Bot (which can be hosted on Pythonanywhere) that answers questions in any language on this document by the Geneva Hospice General: 
-https://www.hospicegeneral.ch/sites/default/files/Directives_version_validee_DSE.pdf
+https://www.hospicegeneral.ch/sites/default/files/Directives_version_validee_DSE.pdf  
+It tries to answer any question on this topic in Ukrainian.  
 
-It tries to answer any question on this topic in Ukrainian. 
 NOTE/DISCLAIMER: this is NOT an official bot by the Hospice General. Any info you take from this bot should be confirmed directly by getting in contact with the Hospice General. 
 
 In order to host this or a similar bot, you need:
@@ -15,7 +15,6 @@ In order to host this or a similar bot, you need:
 This bot makes use of the wonderful LangChain framework: https://python.langchain.com/en/latest/index.html   
 It makes use of the highly useful python telegram-bot wrapper: https://github.com/python-telegram-bot/python-telegram-bot   
 The code has been adapted from this useful template: https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/echobot.py
-
 
 
 
