@@ -11,6 +11,10 @@ In order to host this or a similar bot, you need:
 - (optionally) a Google Translate account and credentials
 - a hosting platform that can serve the bot.
 
+This bot makes use of the wonderful LangChain framework: https://python.langchain.com/en/latest/index.html
+
+
+
 
 
 
