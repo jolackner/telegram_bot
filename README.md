@@ -1,4 +1,4 @@
-# telegram_bot
+# A simple telegram bot that answers to questions on a document 
 
 A simple Telegram Bot (which can be hosted on Pythonanywhere) that answers questions in any language on this document by the Geneva Hospice General: 
 https://www.hospicegeneral.ch/sites/default/files/Directives_version_validee_DSE.pdf
