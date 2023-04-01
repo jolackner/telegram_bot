@@ -2,7 +2,8 @@
 
 A simple Telegram Bot that answers questions on this document by the Geneva Hospice General: 
 https://www.hospicegeneral.ch/sites/default/files/Directives_version_validee_DSE.pdf  
-It tries to answer any question on this specific topic in Ukrainian. But the code could be easily adapted to answer questions in natural language on any kind of document. In order to do that, you would need to first convert your document to a searchable vectorbase. This [LangChain tutorial](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/chroma.html) taught me how to me do it.
+It tries to answer any question on this specific topic in Ukrainian.   
+But the code could be easily adapted to answer questions in natural language on any kind of document. In order to do that, you would need to first convert your document to a searchable vectorbase. This [LangChain tutorial](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/chroma.html) shows how.
 
 NOTE/DISCLAIMER: this is NOT an official bot by the Hospice General. Any info you take from this bot should be confirmed directly by getting in contact with the Hospice General. 
 
