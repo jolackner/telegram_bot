@@ -12,6 +12,8 @@ In order to host this or a similar bot, you need:
 - a hosting platform that can serve the bot.
 
 This bot makes use of the wonderful LangChain framework: https://python.langchain.com/en/latest/index.html
+It makes use of the highly useful python telegram-bot wrapper: https://github.com/python-telegram-bot/python-telegram-bot
+The code has been adapted from this useful template: https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/echobot.py
 
 
 
