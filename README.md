@@ -6,7 +6,7 @@ https://www.hospicegeneral.ch/sites/default/files/Directives_version_validee_DSE
 It tries to answer any question on this topic in Ukrainian. However, this is NOT an official bot by the Hospice General. Any info you take from this bot should be confirmed directly by getting in contact with the Hospice General. 
 
 In order to host this or a similar bot, you need:
-- a OpenAI account and token
+- an OpenAI account and token
 - a Telegram account and token
 - (optionally) a Google Translate account and credentials
 - a hosting platform that can serve the bot.
