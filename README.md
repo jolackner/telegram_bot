@@ -6,7 +6,7 @@ The code could be easily adapted to answer questions to any other document. In o
 
 NOTE/DISCLAIMER: this is NOT an official bot by the Hospice General. Any info you take from this bot should be confirmed directly by getting in contact with the Hospice General. 
 
-In order to host this or a similar bot, you need:
+In order to make this or a similar bot, you need:
 - an OpenAI account and token
 - a Telegram account and token
 - (optionally) a Google Translate account and credentials
