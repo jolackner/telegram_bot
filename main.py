@@ -2,7 +2,7 @@
 # This program is dedicated to the public domain under the CC0 license.
 
 """
-A Telegram bot that answer questions about a document: in this example guidelines of the "Geneva Hospice General".  
+A Telegram bot that answers toquestions about a document: in this example, guidelines of the "Geneva Hospice General".  
 
 First, a few handler functions are defined. Then, those functions are passed to
 the Application and registered at their respective places.
