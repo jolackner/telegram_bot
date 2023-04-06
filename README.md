@@ -1,7 +1,7 @@
 # A Minimalist Telegram Bot for Document Queries
 
-A simple Telegram Bot that answers questions on  a pdf document - in this example, [guidelines](https://www.hospicegeneral.ch/sites/default/files/Directives_version_validee_DSE.pdf) of the "Geneva Hospice General". It tries to answer any question on this topic in Ukrainian, as Ukrainians newly arriving to Geneva might find info on social services etc useful. The underlying document is written in dense French legalese.  
-The answers try to be a bit more intellegible :)     
+A simple Telegram Bot that answers questions on  a pdf document - in this example, [guidelines](https://www.hospicegeneral.ch/sites/default/files/Directives_version_validee_DSE.pdf) of the "Geneva Hospice General". It tries to answer any question on this topic in Ukrainian, as Ukrainians newly arriving to Geneva might find info on social services etc useful.  
+The underlying document is written in dense French legalese. The answers try to be a bit more intellegible :)     
 
 The code could be easily adapted to answer questions to any other document. In order to do this, you would need to convert your document or documents to a searchable vector database. This [LangChain tutorial](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/chroma.html) shows how. 
 
