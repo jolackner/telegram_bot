@@ -62,7 +62,7 @@ embeddings = OpenAIEmbeddings(openai_api_key=api_key)
 
 vectorstore = Chroma(persist_directory=persist_directory, embedding_function=embeddings)
 
-# CHAT_GPT API following
+# The GPT API
 
 system_template="""Ви корисний, доброзичливий мовний зразок, навчений інформації про Женевський хоспіс. Оскільки вашими користувачами будуть українські біженці, ви намагатиметеся відповідати на всі запитання українською мовою.
 Використовуйте наступні частини контексту, щоб відповісти на запитання користувача.
